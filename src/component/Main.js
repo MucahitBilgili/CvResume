@@ -1,17 +1,8 @@
 import React, { useState } from 'react';
-import { db } from "../firebase-config";
-import {
-  collection,
-  getDocs,
-  addDoc,
-  updateDoc,
-  deleteDoc,
-  doc,
-} from "firebase/firestore";
+
 import Footer from './Footer';
 import Profile from './Profile';
 import WorkExperience from './WorkExperience';
-import Education from './Education';
 import  { Component, useEffect } from 'react'
 
 
