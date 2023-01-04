@@ -12,7 +12,7 @@ class Footer extends Component {
         <i className="fa fa-github w3-hover-opacity" />
         <p>
           Powered by{" "}
-          <a href="https://bmucahid.blogspot.com/" target="_blank">
+          <a href="https://bmucahid.blogspot.com/" target="_blank" rel="noopener noreferrer">
             BlogSpot
           </a>
         </p>

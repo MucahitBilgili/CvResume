@@ -1,9 +1,9 @@
-import React, { useState } from 'react';
+import React from 'react';
 
 import Footer from './Footer';
 import Profile from './Profile';
 import WorkExperience from './WorkExperience';
-import  { Component, useEffect } from 'react'
+import  { Component } from 'react'
 
 
   

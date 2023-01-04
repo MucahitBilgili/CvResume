@@ -78,8 +78,8 @@ class Profile extends Component {
                   Sertifika
                 </b>
               </div>
-              <div  className='m-textProfile'><a href="https://www.hackerrank.com/certificates/3e11ade282ec" target="_blank">Hackerrank-Angular</a></div>       
-              <div  className='m-textProfile'><a href="https://www.hackerrank.com/certificates/3e11ade282ec" target="_blank">Hackerrank-SQL </a></div>
+              <div  className='m-textProfile'><a href="https://www.hackerrank.com/certificates/3e11ade282ec" target="_blank" rel="noopener noreferrer">Hackerrank-Angular</a></div>       
+              <div  className='m-textProfile'><a href="https://www.hackerrank.com/certificates/3e11ade282ec" target="_blank" rel="noopener noreferrer">Hackerrank-SQL </a></div>
               <div  className='m-textProfile'>Kanban System Design (KMP I) </div>
               <br />
             </div>

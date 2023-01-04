@@ -1,4 +1,3 @@
-
 import React, { Component } from 'react'
 
 class WorkExperience extends Component {
@@ -26,7 +25,7 @@ class WorkExperience extends Component {
             <div className='m-desc'>
               Eminevim müşterilerine açık internet şube uygulamasıdır. <br />
               <b className='m-bText'>Teknoloji : </b> NetCore, ReactJs <br />
-              <b className='m-bText'>Link :   </b><a href="https://isube.eminevim.com.tr" target="_blank">EminEvim iŞube</a>
+              <b className='m-bText'>Link :   </b><a href="https://isube.eminevim.com.tr" target="_blank" rel="noopener noreferrer">EminEvim iŞube</a>
             </div>
             <div className='m-projectHeader'>Crm</div>
             <div className='m-desc'>
@@ -68,7 +67,7 @@ class WorkExperience extends Component {
               40'tan fazla farklı ülkede kullanılan okul yönetim sistemidir. <br />
               Eğitim hizmeti verilen ülkelerin tüm okul süreçlerini ve öğrenci yaşam döngüsü yönetimini kapsayan platformdur. <br />
               <b className='m-bText'>Teknoloji : </b> Netcore, Angular <br />
-              <b className='m-bText'>Link :   </b><a href="https://e-maarif.org/" target="_blank">E-Maarif</a>
+              <b className='m-bText'>Link :   </b><a href="https://e-maarif.org/" target="_blank" rel="noopener noreferrer">E-Maarif</a>
             </div>
             <div className='m-projectHeader'>E-Maarif Platformu Dönüşüm Projesi </div>
             <div className='m-desc'>
@@ -95,7 +94,7 @@ class WorkExperience extends Component {
             <div className='m-desc'>
             İstanbul'daki nöbetçi eczaneleri kolayca ulaşabileceğiniz bir uygulamadır.<br />
               <b className='m-bText'>Teknoloji : </b> Net6, Angular <br />
-              <b className='m-bText'>Link :   </b><a href="https://play.google.com/store/apps/details?id=com.blogspot.resoft.isteczanem" target="_blank">Play Store</a>
+              <b className='m-bText'>Link :   </b><a href="https://play.google.com/store/apps/details?id=com.blogspot.resoft.isteczanem" target="_blank" rel="noopener noreferrer">Play Store</a>
             </div>
             <br />
           </div>
