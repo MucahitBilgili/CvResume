@@ -79,3 +79,5 @@ node_modules/
 .modelproj merge=binary
 .sqlproj   merge=binary
 .wwaproj   merge=binary
+.sqlite
+slnx.sqlite
