@@ -1,70 +1,81 @@
-# Getting Started with Create React App
+## Setting up a project on Firebase
+You need a free account to access all the features that Firebase has got to offer, so open up a Firebase account and go to the Firebase console page.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Add a new firebase project
 
-## Available Scripts
+Next, use the following steps:
 
-In the project directory, you can run:
+Click the Add project button.
+Enter a name for your project. I have named mine react-app-firebase. Keep in mind that project IDs are unique in Firebase.
+Click Continue.
+Disable Google Analytics; it is not required for this project.
+Click Continue again.
+You have successfully created a project on Firebase.
 
-### `npm start`
+Configure Firebase hosting
+To successfully host your application on Firebase, you need to install its tools and initialize it within your project.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Open a new terminal. Run this command to install Firebase tools globally:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+```json npm install -g firebase-tools ```
 
-### `npm test`
+Once the installation is completed, you now have global access to Firebase Command Line Interface tools. You can use them to deploy code and assets to your newly created Firebase project.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Connecting React to Firebase
+From the terminal, sign in to your Firebase account:
 
-### `npm run build`
+```json firebase login ```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+This command will open a browser and prompt you to select an account.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Next, ensure that you are within the root of the react-app-firebase project and issue this command to initialize it:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```json firebase init ```
 
-### `npm run eject`
+You will be prompted to respond to some questions.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Choose hosting: Configure files for Firebase hosting and (optionally) set up GitHub Action deploys.
+Use an existing project: Select the Firebase project you created earlier (react-app-firebase).
+Enter build as the public directory.
+Configure as a single-page app: Yes.
+Set up automatic builds and deploys with GitHub: No. For this tutorial, we are using CircleCI to run tests and handle deployment.
+Here is the output from the terminal:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+You are about to initialize a Firebase project in this directory:
+    
+  /Users/xxxx/tutorial/react-app-firebase
+    
+? Which Firebase features do you want to set up for this directory? Press Space to select features, th
+en Enter to confirm your choices. Hosting: Configure files for Firebase Hosting and (optionally) set u
+p GitHub Action deploys, Hosting: Set up GitHub Action deploys
+    
+#### Project Setup
+    
+First, lets associate this project directory with a Firebase project.
+You can create multiple project aliases by running firebase use --add, 
+but for now we will just set up a default project.
+    
+? Please select an option: Use an existing project
+? Select a default Firebase project for this directory: react-app-firebase-52972 (react-app-firebase)
+i  Using project react-app-firebase-52972 (react-app-firebase)
+    
+#### Hosting Setup
+    
+Your public directory is the folder (relative to your project directory) that
+will contain Hosting assets to be uploaded with firebase deploy. If you
+have a build process for your assets, use your builds output directory.
+    
+? What do you want to use as your public directory? build
+? Configure as a single-page app (rewrite all urls to /index.html)? Yes
+? Set up automatic builds and deploys with GitHub? No
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+✔  Wrote build/index.html
+    
+i  Writing configuration info to firebase.json...
+i  Writing project information to .firebaserc...
+    
+✔  Firebase initialization complete!
+The project’s initialization process also generated two unique files at the root of your project. These files are required for successful deployment and must be checked into source control.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+firebase.json contains your project’s hosting configuration. It instructs Firebase CLI about the files in your project directory to upload and deploy.
+.firebaserc specifies the project to connect to the uploaded code once you successfully deploy to Firebase.
