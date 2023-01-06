@@ -24,13 +24,13 @@ class WorkExperience extends Component {
             <div className='m-projectHeader'>İnternet Şube</div>
             <div className='m-desc'>
               Eminevim müşterilerine açık internet şube uygulamasıdır. <br />
-              <b className='m-bText'>Teknoloji : </b> NetCore, ReactJs <br />
+              <b className='m-bText'>Teknoloji : </b> NetCore, ReactJs, MSSQL <br />
               <b className='m-bText'>Link :   </b><a href="https://isube.eminevim.com.tr" target="_blank" rel="noopener noreferrer">EminEvim iŞube</a>
             </div>
             <div className='m-projectHeader'>Crm</div>
             <div className='m-desc'>
               Eminevim şubelerinde kullanılan iç uygulamadır. <br />
-              <b className='m-bText'>Teknoloji : </b> NetMvc, KendoUi
+              <b className='m-bText'>Teknoloji : </b> NetMvc, KendoUi, MSSQL
             </div>
             <hr className='m-hr' />
           </div>
@@ -49,7 +49,7 @@ class WorkExperience extends Component {
               Özetle bu uygulama ile mağazaya gelen müşterinin aradığı ürün özellikleri bulunamazsa başka bir FLO mağazasından
               temin edilerek OMS uygulamasına gönderilir ve müşteriye kargo yapılır. <br />
               Net Framework API servisleri .Net6 versiyona yükseltildi. <br />
-              <b className='m-bText'>Teknoloji : </b> Net6, Angular
+              <b className='m-bText'>Teknoloji : </b> Net6, Angular, MSSQL
             </div>
             <hr className='m-hr' />
           </div>
@@ -65,19 +65,19 @@ class WorkExperience extends Component {
 
             <div className='m-desc'>
               40'tan fazla farklı ülkede kullanılan okul yönetim sistemidir. <br />
-              Eğitim hizmeti verilen ülkelerin tüm okul süreçlerini ve öğrenci yaşam döngüsü yönetimini kapsayan platformdur. <br />
-              <b className='m-bText'>Teknoloji : </b> Netcore, Angular <br />
+              Eğitim hizmeti verilen ülkelerde tüm okul süreçlerini ve öğrenci yaşam döngüsü yönetimini kapsayan platformdur. <br />
+              <b className='m-bText'>Teknoloji : </b> Netcore, Angular, MSSQL <br />
               <b className='m-bText'>Link :   </b><a href="https://e-maarif.org/" target="_blank" rel="noopener noreferrer">E-Maarif</a>
             </div>
             <div className='m-projectHeader'>E-Maarif Platformu Dönüşüm Projesi </div>
             <div className='m-desc'>
-              Emaarif projesinin frontend tarafı Angular 6'dan Angular 8'e yükseltildi. <br />
-              Emaarif projesinin frontend uygulamasının IIS'den AWS S3 ve CloudFront servislerine taşındı. <br />
+              Emaarif projesinin frontend uygulaması Angular 6'dan Angular 8'e yükseltildi. <br />
+              Emaarif projesinin frontend uygulaması IIS'den AWS S3 ve CloudFront servislerine taşındı. <br />
               <b className='m-bText'>Teknoloji : </b> AWS, Angular
             </div>
             <div className='m-projectHeader'>E-Maarif - ERP Entegrasyon Projesi </div>
             <div className='m-desc'>
-               Öğrenci tahsilatını okul yönetim sisteminden ERP muhasebe modülüne aktarmayı gerçekleştiren entegrasyon projesidir. <br />
+               Öğrencilerin tahsilatını okul yönetim sisteminden ERP muhasebe modülüne aktarmayı gerçekleştiren entegrasyon projesidir. <br />
               <b className='m-bText'>Teknoloji : </b> .Netcore, Odata
             </div>
             <hr className='m-hr' />
@@ -93,7 +93,7 @@ class WorkExperience extends Component {
             <div className='m-projectHeader'>Nöbetci Eczane</div>
             <div className='m-desc'>
             İstanbul'daki nöbetçi eczaneleri kolayca ulaşabileceğiniz bir uygulamadır.<br />
-              <b className='m-bText'>Teknoloji : </b> Net6, Angular <br />
+              <b className='m-bText'>Teknoloji : </b> Android <br />
               <b className='m-bText'>Link :   </b><a href="https://play.google.com/store/apps/details?id=com.blogspot.resoft.isteczanem" target="_blank" rel="noopener noreferrer">Play Store</a>
             </div>
             <br />

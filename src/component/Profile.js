@@ -74,15 +74,27 @@ class Profile extends Component {
               
               <div className="w3-large w3-text-theme m-headerCompany">
                 <b>
-                  <i className="fa fa-globe fa-fw w3-margin-right w3-text-teal" />
+                  <i className="fa fa-book fa-fw w3-margin-right w3-text-teal" />
                   Sertifika
                 </b>
               </div>
               <div  className='m-textProfile'><a href="https://www.hackerrank.com/certificates/3e11ade282ec" target="_blank" rel="noopener noreferrer">Hackerrank-Angular</a></div>       
               <div  className='m-textProfile'><a href="https://www.hackerrank.com/certificates/3e11ade282ec" target="_blank" rel="noopener noreferrer">Hackerrank-SQL </a></div>
               <div  className='m-textProfile'>Kanban System Design (KMP I) </div>
-              <br />
+              <hr className='m-hr' />
+              <div className="w3-large m-headerCompany">
+                <b>
+                  <i className="fa fa-futbol-o fa-fw w3-margin-right w3-text-teal" />
+                  Hobi
+                </b>
+              </div>
+              
+              <span className="w3-tag w3-teal w3-round m-margin">Futbol</span>
+              <span className="w3-tag w3-teal w3-round m-margin">Fotoğraf</span>
+              <span className="w3-tag w3-teal w3-round m-margin">E-Learning</span>
+             
             </div>
+            <br />
           </div>
         </>
       )
