@@ -34,7 +34,7 @@ class Profile extends Component {
               </div>
               <div className='m-textProfile'>
                 <i className="fa fa-phone fa-fw w3-margin-right w3-large w3-text-teal" />
-                530 017 94 25
+                
               </div>
               <hr className='m-hr' />
               
