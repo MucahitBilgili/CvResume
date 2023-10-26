@@ -21,7 +21,13 @@ class WorkExperience extends Component {
               08/2022 - {" "}
               <span className="w3-tag w3-teal w3-round">Current</span>
             </h6>
-            <div className='m-projectHeader'>İnternet Şube</div>
+         <div className='m-projectHeader'>İnternet Şube - VPos Entegrasyonu</div>
+          <div className='m-desc'>
+           Eminevim internet şubesinin içerisinde Ziraat Katılım sanal pos entegrasyonu projesidir. Müşterilerin 3D Ödeme ile işlem yapılmesi sağlanmıştır.<br />
+           <b className='m-bText'>Teknoloji : </b> NetCore, ReactJs, MSSQL <br />
+           <b className='m-bText'>Link :   </b><a href="https://isube.eminevim.com.tr" target="_blank" rel="noopener noreferrer">EminEvim iŞube</a>
+          </div>
+          <div className='m-projectHeader'>İnternet Şube</div>
             <div className='m-desc'>
               Eminevim müşterilerine açık internet şube uygulamasıdır. <br />
               <b className='m-bText'>Teknoloji : </b> NetCore, ReactJs, MSSQL <br />
