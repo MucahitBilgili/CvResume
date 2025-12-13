@@ -4,21 +4,21 @@ import React, { Component } from 'react'
 class Footer extends Component {
 
 
-    render() {
+  render() {
 
-      return(
-        <>
-           <p>Find me on social media.</p>
-        <i className="fa fa-github w3-hover-opacity" />
+    return (
+      <>
+        <p>Find me on social media.</p>
+        <i className="fa fa-github" />
         <p>
           Powered by{" "}
           <a href="https://bmucahid.blogspot.com/" target="_blank" rel="noopener noreferrer">
             BlogSpot
           </a>
         </p>
-        </>
-      )
-      }
+      </>
+    )
+  }
 
 }
 export default Footer;

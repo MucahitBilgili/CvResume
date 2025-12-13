@@ -14,23 +14,20 @@ class Main extends Component {
        
       return(
         <>
-        <div className="w3-content w3-margin-top" style={{ maxWidth: 1400 }}>
-          <div className="w3-row-padding">
-            {/* Left Column */}
-            <div className="w3-third">
+        <div className="modern-container">
+          <div className="modern-grid">
+            {/* Left Column - Profile */}
+            <div className="animate-left">
               <Profile />
-              <br />
             </div>
-            <div>
             
-            </div>
-            {/* Right Column */}
-            <div className="w3-twothird">
+            {/* Right Column - Experience */}
+            <div className="animate-right">
               <WorkExperience />
             </div>
           </div>
         </div>
-        <footer className="w3-container w3-teal w3-center w3-margin-top">
+        <footer className="modern-footer">
           <Footer />
         </footer>
         </>
